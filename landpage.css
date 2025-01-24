@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font: 500 16px Roboto, sans-serif;
 }
 
 header{
@@ -71,15 +72,21 @@ ul {
     justify-content: space-evenly;
 }
 
-.circle{
-    width: 10vw;
-    height: 10vw;
-    max-width: 100px;
-    max-height: 100px;
+.container-geral{
+    background-color: rgb(207, 207, 207);
+    height: 100%;
+    width: 100%;
+    border-radius: 10em 10em 0em 0em;
+}
+
+.circulo{
+    width: 20vw;
+    height: 20vw;
+    max-width: 120px;
+    max-height: 120px;
     background-color: rgb(170, 170, 170);
     border-radius: 50%;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin: 20px 20px 20px 20px;
     display: flex;
     align-items: space-between;
     justify-content: center;
@@ -88,8 +95,11 @@ ul {
     font-size: 2vw;
 }
 
-.circle:hover{
-    background-color: rgb(150, 150, 150);
+.img-circulo{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(170, 170, 170);
+    border-radius: 180px;
 }
 
 .container-design{
@@ -101,7 +111,7 @@ ul {
 }
 
 .container-tendencias{ 
-    height: 28em;
+    height: 39em;
     width: auto;
     overflow-x: scroll;
 }
@@ -109,7 +119,7 @@ ul {
 .inside-tendencias{
     display:flex;
     width: 100%;
-    height: 26em;
+    height: 37em;
 }
 
 .texto{
@@ -117,10 +127,25 @@ ul {
 }
 
 .box{
-    min-width: 18rem;
-    max-height: 26rem;
-    background-color: rgb(170, 170, 170);   
+    min-width: 25rem;
+    max-height: 37rem;
     margin: 1em 1em 0em 1em;
+}
+
+.foto-tendencia{
+    width: 100%;
+    height: 30rem;
+    background-color: rgb(218, 113, 174);
+}
+
+.titulo-tendencias{
+    text-align: center;
+    font-size: 30px;
+}
+
+.preco-tendencias{
+    text-align: center;
+    font-size: 20px;
 }
 
 .container-produtos {
@@ -128,14 +153,13 @@ ul {
     justify-content: center;
     align-items: center; 
     flex-wrap: wrap;
-    height: 120em;
+    height: 100%;
     width: 100%; 
 }
 
 .produtos {
-    width: 18em;
-    height: 26em;
-    background-color: rgb(170, 170, 170);
+    width: 25rem;
+    height: 37rem;
     margin: 1em 1em 1em 1em; 
     text-align: center;
 }
@@ -145,5 +169,14 @@ ul {
     height: 15em;
     width: 100%;
     border-radius: 8em 8em 0em 0em;
+
+}
+
+footer{
+    background-color: rgb(107, 10, 66);
+    width: 100%;
+    height: 25em;
+    text-align: center;
+    color: white;
 
 }
